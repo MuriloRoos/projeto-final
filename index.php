@@ -38,9 +38,10 @@ if(!isset($_SESSION)){
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#servico">Serviço</a></li>
                         <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contato">Contatos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="calendario/index.php">Agendamento</a></li>
                         <li class="nav-item"><a class="nav-link" href="lista_user.php">Lista de perfil</a></li>
                         <li class="nav-item"><a class="nav-link" href="perfil/perfil.php">perfil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sair.php">sair</a></li>
                     </ul>
                 </div>
             </div>
@@ -89,7 +90,7 @@ if(!isset($_SESSION)){
             </div>
         </section>
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <!-- <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Mais Avaliados</h2>
@@ -97,7 +98,7 @@ if(!isset($_SESSION)){
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
+                         Portfolio item 1
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
                                 <div class="portfolio-hover">
@@ -112,7 +113,7 @@ if(!isset($_SESSION)){
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
+                         Portfolio item 2
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
                                 <div class="portfolio-hover">
@@ -127,7 +128,7 @@ if(!isset($_SESSION)){
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
+                         Portfolio item 3
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                                 <div class="portfolio-hover">
@@ -143,7 +144,7 @@ if(!isset($_SESSION)){
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- About-->
         <section class="page-section" id="sobre">
             <div class="container">
